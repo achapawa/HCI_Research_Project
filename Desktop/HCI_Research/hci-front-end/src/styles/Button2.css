@@ -1,0 +1,33 @@
+
+.btn.btn-secondary {
+    transition: .4s;
+    background: #FFF;
+    color: #FFA000;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #FFF;
+    margin: 12px 30px;
+}
+.btn.btn-secondary:hover {
+    transition: .4s;
+    background: #FFF;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #FFF;
+}
+.btn.btn-secondary:active {
+    transition: .2s;
+    background: #FFF;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #FFF;
+}
+.btn {
+    height: 36px;
+    display: inline-block;
+    font: 14px/36px "Roboto", sans-serif !important;
+    padding: 0 16px;
+    border-radius: 2px;
+    min-width: 120px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}

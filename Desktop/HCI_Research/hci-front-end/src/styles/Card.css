@@ -1,0 +1,47 @@
+.card{
+    background-color: rgb(252, 253, 255);
+    height: 10.5em;
+    width: 13em;
+    margin: 5px 5px 5px 5px;
+    border-color: black;
+    display:grid;
+    grid-template-columns: 100px 100px;
+    grid-row: auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    border-style: solid;
+    border-width: 2.5px;  
+}
+
+.card-but{
+    height: 4.5em;
+    width: 5.5em;
+    border-style: solid;
+    border-width: 1.5px;
+   border-color: black;
+    background-color:#ffffff;
+    margin: 2px 2px 2px 2px;
+    display: flex;
+    align-content: center;
+}
+
+.card-but:hover{
+    background-color:rgb(249, 250, 250);
+    box-shadow: 0 0 0 2px #239476;
+}
+
+.card-but:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 2px #048451;
+}
+
+.card-but::after{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 2px #429d79;
+}
+
+.cards{
+    display: flex;
+}
