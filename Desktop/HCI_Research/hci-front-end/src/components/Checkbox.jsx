@@ -20,7 +20,7 @@ function Checkbox(props) {
       </div>
       <div className='checkbox'>
       <label>
-            <input type="checkbox" />
+            <input className='checkbox-2' type="checkbox" />
             <span>Check this</span>
       </label>
       </div>
