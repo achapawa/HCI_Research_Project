@@ -22,7 +22,6 @@ function Button1(props) {
           {props.body}
         </Modal.Body>
         <Modal.Footer>
-        <p>For instance:</p>
           <Button variant="danger" onClick={handleClose}>
             Close
           </Button>

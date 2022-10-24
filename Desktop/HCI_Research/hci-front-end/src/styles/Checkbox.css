@@ -102,6 +102,14 @@
 
 }
 
+.check-1{
+  height: 25px;
+  width: 25px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border-style: solid;
+}
+
 .head-checkbox{
     margin-top: 40px;
     font-weight: bolder;
@@ -115,7 +123,8 @@
 
 .checkbox{
     display: inline;
-    margin: 10px 20px;
+    margin: 40px 20px;
+  
     
 }
 
@@ -123,5 +132,69 @@
     font-weight: bolder;
     margin-bottom: 1px;
     margin-top: 30px;
+}
+
+.script {
+  display: inline;
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.geekmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: rgb(236, 242, 236);
+  border-style: solid;
+}
+
+
+
+/* specify the background color to be
+shown when checkbox is active */
+.script input:active ~ .geekmark {
+  background-color: red;
+}
+
+/* specify the background color to be
+shown when checkbox is checked */
+.script input:checked ~ .geekmark {
+  background-color: rgb(247, 248, 250);
+}
+
+.check-2{
+  visibility: hidden;
+}
+/* checkmark to be shown in checkbox */
+/* It is not be shown when not checked */
+.geekmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* display checkmark when checked */
+.script input:checked ~ .geekmark:after {
+  display: block;
+}
+
+
+.script .geekmark:after {
+  left: 2px;
+  bottom: 3px;
+  width: 15px;
+  height: 15px;
+  border: solid rgb(57, 9, 202);
+  border-width: 4px 4px 4px 4px;
+}
+
+.main-check{
+  margin-bottom: 20px;
 }
 
